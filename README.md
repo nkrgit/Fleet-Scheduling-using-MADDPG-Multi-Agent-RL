@@ -16,7 +16,7 @@
     - Away from the target: -3
     - Stays in same position: -5
     - Reaches target: 100
-    
+ <img src = ''>
     
 <h3>Simple Adversary - OpenAI Multi Agent particle environment</h3>
 
@@ -47,5 +47,5 @@
   * Target Actor Network (i.e. performed soft updates)
   * Target Critic Network (i.e. performed soft updates)
   
-<img src=''>
+<img src='https://github.com/nkrgit/Fleet-Scheduling-using-MADDPG-Multi-Agent-RL/blob/main/MADDPG_Arc.png'>
 
