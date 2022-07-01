@@ -6,7 +6,7 @@
 
 <h3>Multi-Agent Environment</h3>
 
-* Two cars in a 4x4 environment
+* Two cars in a 4x4 Grid-world environment
   * 1st car – Goal - To reach top right of the environment
   * 2nd car – Goal - To reach top left of the environment
   * State space: 16 states: {s0, s1, s2,...s15}
@@ -18,7 +18,7 @@
     - Reaches target: 100
     
 <div align="center">
-<img src = 'https://github.com/nkrgit/Fleet-Scheduling-using-MADDPG-Multi-Agent-RL/blob/main/Fleet_Env.png' width="420" height="300">
+<img src = 'https://github.com/nkrgit/Fleet-Scheduling-using-MADDPG-Multi-Agent-RL/blob/main/Fleet_Env.png' width="430" height="300">
 </div>
 
 <h3>Simple Adversary - OpenAI Multi Agent particle environment</h3>
@@ -35,7 +35,6 @@
 <div align="center">
 <img src = 'https://github.com/nkrgit/Fleet-Scheduling-using-MADDPG-Multi-Agent-RL/blob/main/mpe_simple_adversary.gif' width="280" height="250">
 </div>
-
 <h3>Implementation:</h3>
 
 * Implemented Q-learning and MADDPG on both Vehicle Scheduling and Simple Adversary Environments
