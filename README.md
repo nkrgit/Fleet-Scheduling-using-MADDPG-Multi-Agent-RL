@@ -37,15 +37,24 @@
 
 * Every Agent has 
     * Actor Network:
-       * Inputs: States, actions
-       * Outputs: Probs
-
+      * Inputs: States, actions
+      * Outputs: Probs
     * Critic Network:
-       * Inputs: states, actions
-       * Outputs: Q values
+      * Inputs: states, actions
+      * Outputs: Q values
 * To freeze weights to avoid running targets
   * Target Actor Network (i.e. performed soft updates)
   * Target Critic Network (i.e. performed soft updates)
   
 <img src='https://github.com/nkrgit/Fleet-Scheduling-using-MADDPG-Multi-Agent-RL/blob/main/MADDPG_Arc.png'>
 
+<h4>Improved Version of MADDPG</h4>
+
+* I developed an improved version of MADDPG, where I have used ε-greedy approach even after applying noise to actions chosen from deterministic policy.
+
+<h3>Observations:</h3>
+
+* Q learning is not working well for the Vehicle Scheduling environment.
+* The MADDPG algorithm is working better when compared to Q learning algorithm.
+* Proper attention should be given while implementing the MADDPG algorithm since it may lead to over-estimation of the Q-value using the Critic network.
+* MADDPG is working well for continuous action-state value environment (i.e. Simple Adversary)
