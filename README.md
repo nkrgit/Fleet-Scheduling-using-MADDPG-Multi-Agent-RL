@@ -2,7 +2,7 @@
 
 <h3>Goal:</h3>
 
-* To solve a Multi-Agent Environment (i.e., Vehicle Scheduling Environment) using Multi-Agent Deep Deterministic Policy Gradient (MADDPG) algorithm.
+* To solve a Multi-Agent Environment (i.e., Vehicle Scheduling Environment) and Simple Adversary: OpenAI Multi-Agent particle environment using Multi-Agent Deep Deterministic Policy Gradient (MADDPG) algorithm.
 
 <h3>Multi-Agent Environment</h3>
 
