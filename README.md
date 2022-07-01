@@ -16,7 +16,7 @@
     - Away from the target: -3
     - Stays in same position: -5
     - Reaches target: 100
- <img src = ''>
+ <img src = 'https://github.com/nkrgit/Fleet-Scheduling-using-MADDPG-Multi-Agent-RL/blob/main/Fleet_Env.png'>
     
 <h3>Simple Adversary - OpenAI Multi Agent particle environment</h3>
 
